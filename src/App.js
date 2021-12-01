@@ -1,12 +1,7 @@
 import React from 'react';
-import Hello from './Hello';
+import InputSample from './inputSample';
 function App() {
-  return (
-    <div>
-      <Hello />
-      <input type="text" />
-    </div>
-  );
+  return <InputSample></InputSample>;
 }
 
 export default App;
